@@ -1,0 +1,148 @@
+# Without https:// bad things will happen as it thinks you are appending instead of absolute paths.e
+# baseurl = "https://darvid7.github.io/static-site-test/"
+# 
+baseurl = "https://darvid7.github.io/static-site-test/"
+languageCode = "en-us"
+title = "Hi i'm David"
+theme = "hugo-strata-theme"
+publishDir = "docs"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = "UA-122144895-1"
+# Define how many posts should appear on a site
+paginate = 10
+canonifyurls = true
+# Tags & Category links are made when these are created i.e. baseurl/tags/google will be a thing. Don't think I need this yet.
+tags = ["google"]
+categories = ["tech"]
+future = true
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Your name"
+	description = "Describe your website"
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add read time estimates in the format "X min read"
+	show_read_time = false
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "me.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "Hi, i'm David..."
+
+		# Icons edited on the template.
+		# The icons will be shown if you enter your username
+
+		copyright = [
+			"&copy; David Lei"
+		]
+
+	[params.about]
+		hide  = true
+		# title = "About me"
+		# content = "Me irl. Coming soon...in the mean time pls just look at the [resume page](/resume) its the only one i've finished :("
+
+	[params.portfolio]
+		hide  = true
+		title = "Recent Work"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "fulls/01.jpg"
+			thumb = "thumbs/01.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/02.jpg"
+			thumb = "thumbs/02.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/03.jpg"
+			thumb = "thumbs/03.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/04.jpg"
+			thumb = "thumbs/04.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/05.jpg"
+			thumb = "thumbs/05.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/06.jpg"
+			thumb = "thumbs/06.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+	[params.recentposts]
+		hide  = true
+		title = "Recent blog posts"
+
+	[params.contact]
+		hide  = false
+		title = "Get In Touch"
+
+		# This can be exact coordinates or a searchable address in google maps
+		address = [
+			"Somewhere in this big ball 🌏"
+		]
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "notdavid.dev@gmail.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+# Menu links that appear on the left sidebar
+
+# Hugo has a nice blogging system.
+[[menu.main]]
+	name = "ramblings"
+	url  = "ramblings"
+	
+[[menu.main]]
+	name = "home"
+	url  = ""
+
+[[menu.main]]
+	name = "resume"
+	url  = "resume"
+
+[[menu.main]]
+	name = "projects"
+	url  = "projects"
+
+

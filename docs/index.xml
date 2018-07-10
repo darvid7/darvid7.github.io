@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hi i&#39;m David</title>
+    <link>https://darvid7.github.io/static-site-test/</link>
+    <description>Recent content on Hi i&#39;m David</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jul 2018 19:48:13 +1000</lastBuildDate>
+    
+	<atom:link href="https://darvid7.github.io/static-site-test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Maps 2017 - 2018 Summer Internship</title>
+      <link>https://darvid7.github.io/static-site-test/ramblings/maps_internship/</link>
+      <pubDate>Tue, 10 Jul 2018 19:48:13 +1000</pubDate>
+      
+      <guid>https://darvid7.github.io/static-site-test/ramblings/maps_internship/</guid>
+      <description>Over the past summer (2017 - 2018) I worked on the Google Maps Location Sharing team! Location Sharing in Maps allows you to share your location with someone. Typical use cases include sharing with family members when overseas and sharing with friends to try meet up somewhere. I worked on two features to improve the user experience when sharing location by providing more information to the person being shared with, I can now talk about because they launched!</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://darvid7.github.io/static-site-test/ramblings/first_post/</link>
+      <pubDate>Mon, 09 Jul 2018 19:51:48 +1000</pubDate>
+      
+      <guid>https://darvid7.github.io/static-site-test/ramblings/first_post/</guid>
+      <description>World! I&amp;rsquo;m not sure what I&amp;rsquo;m going to do with this, I guess this is a blog of sorts although using a blogging platform like medium will probably be easier 🤔&amp;hellip;I guess I just like writing in *.md.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://darvid7.github.io/static-site-test/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darvid7.github.io/static-site-test/projects/</guid>
+      <description>Projects I&amp;rsquo;ve done a range of hackathons, random side projects and a few pieces of polished work. Hopefully this showcases a diverse range of them.
+Google Maps Location Sharing A overview of what I did during my Google internship  Implemented two features on Google Maps Location Sharing during my last Google internship. This included the server as well as the android work. The features are now launched!  Telstra Swagger Platform Automating SDK generation of APIs using Swagger  Forth year Software Engineering project w/ Telstra, an open source platform to automate generating SDKs using Swagger built using React, TypeScript, MobX &amp; Jest.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://darvid7.github.io/static-site-test/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darvid7.github.io/static-site-test/resume/</guid>
+      <description>Résumé Technical Skills:  pdf updated March 2018
+var typed = new Typed(&#34;.type&#34;, { strings: [&#34;Java&#34;, &#34;Python&#34;, &#34;JavaScript&#34;, &#34;C&#34;, &#34;SQL&#34;, &#34;C++&#34;, &#34;TypeScript&#34;, &#34;Swift&#34;, &#34;Bash&#34;, &#34;HTML&#34;, &#34;CSS&#34;, &#34;Perl&#34;, &#34;React&#34;, &#34;Android&#34;], typeSpeed: 150, backSpeed: 150, loop: true, loopCount: Infinity });  I&amp;rsquo;ve worked across various stacks including web backends (SpringBoot, Node), frontends (React, jquery) and mobile (android). Currently I am trying to upskill myself in React, TypeScript, React Native and TensorFlow.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://darvid7.github.io/static-site-test/homepage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darvid7.github.io/static-site-test/homepage/</guid>
+      <description>About me  Hi 👋I&amp;rsquo;m David, born, raised in Melbourne Australia 🇦🇺, the most livable city on Earth 🌏I study Software Engineering at Monash University 🎓and work a bit there, you can read more about my work experience here. In my spare time I travel ✈️, look for dogs to pet 🐶, eat food ☕️🍕🍣 , binge watch Netflix shows 📺and find cool side projects to work on 💻.</description>
+    </item>
+    
+    <item>
+      <title>idk</title>
+      <link>https://darvid7.github.io/static-site-test/whyareyouhere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darvid7.github.io/static-site-test/whyareyouhere/</guid>
+      <description>   Chilling at the United Nations     Cinque Terre Italy     Burj Khalifa Dubai     $(window).load(function() { $(&#39;.flexslider&#39;).flexslider({ animation: &#34;slide&#34;, directionNav: false, controlNav: true, animationLoop: true, slideshowSpeed: 4000, // slideshow cycling, in milliseconds animationSpeed: 800, // speed of animations, in milliseconds initDelay: 0, //initialization delay, in milliseconds pauseOnHover: false, }); });  -- </description>
+    </item>
+    
+  </channel>
+</rss>

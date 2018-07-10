@@ -1,0 +1,55 @@
+{{ "<!-- Header -->" | safeHTML }}
+<script type="text/javascript" src="{{ .Site.BaseURL }}/js/typed.min.js"></script>
+
+<!-- need this to get base url for hosting multiple projs on github pages -->
+<script type="text/javascript">
+	{{$baseUrl := .Site.BaseURL }}
+</script>
+
+
+<header id="header">
+	{{ if not .Site.Params.avatar.hide }}
+	<a href="{{ .Site.BaseURL }}" class="image avatar"><img src="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}" alt="" /></a>
+	<br/>
+	{{ end }}
+
+	<span style="background-color: rgba(0, 0, 0, 0.35);">
+	{{ with .Site.Params.sidebar.bio }}
+		<h1 style="
+			display: inline;
+			color: rgba(255, 255, 255, 0.80);">
+			{{ . | markdownify }}
+		</h1>
+	{{ end }}
+
+	<h1 class="typeThingsHeader" style="
+			display: inline;"
+		></h1>
+	</span>
+
+	<script type="text/javascript">
+		var typed = new Typed(".typeThingsHeader", {
+			strings: ["I sleep", "I'm a Software Engineer", "I'm a Student", "I might be a coffee addict",  "☕ ☕ ☕ ☕ ☕ ☕  ☕ ☕", "I'm an entrepreneur","I'm an explorer", "I like ♫♫♫♫", "Thanks for checking out my site", "Have a great day! ⛅"],
+			typeSpeed: 100,
+			backSpeed: 50,
+			cursorChar: '|',
+			loop: true,
+			loopCount: Infinity
+		});
+		console.log('hi');
+		console.log({{.Site.Menus.main}});
+	</script>
+
+	<!-- $baseUrl for github pages projects has suffix '/' so if .Name and .URL is the same then this works -->
+	{{ with .Site.Menus.main }}
+		<nav id="sidebar">
+			<ul>
+			{{ range . }}
+				<li >
+					<a href="{{$baseUrl}}{{ .URL }}">{{ .Name }}</a>
+				</li>
+			{{ end }}
+			</ul>
+		</nav>
+	{{ end }}
+</header>

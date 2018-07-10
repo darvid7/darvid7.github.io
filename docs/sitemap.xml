@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/ramblings/maps_internship/</loc>
+    <lastmod>2018-07-10T19:48:13+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/ramblings/first_post/</loc>
+    <lastmod>2018-07-09T19:51:48+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/resume/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/tags/android/</loc>
+    <lastmod>2018-07-10T19:48:13+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/tags/google/</loc>
+    <lastmod>2018-07-10T19:48:13+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/</loc>
+    <lastmod>2018-07-10T19:48:13+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/homepage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/tags/java/</loc>
+    <lastmod>2018-07-10T19:48:13+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/tags/maps/</loc>
+    <lastmod>2018-07-10T19:48:13+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/ramblings/</loc>
+    <lastmod>2018-07-10T19:48:13+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/tags/</loc>
+    <lastmod>2018-07-10T19:48:13+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/categories/tech/</loc>
+    <lastmod>2018-07-10T19:48:13+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darvid7.github.io/static-site-test/whyareyouhere/</loc>
+  </url>
+  
+</urlset>

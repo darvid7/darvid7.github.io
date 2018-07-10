@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramblings on Hi i&#39;m David</title>
+    <link>https://darvid7.github.io/static-site-test/ramblings/</link>
+    <description>Recent content in Ramblings on Hi i&#39;m David</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jul 2018 19:48:13 +1000</lastBuildDate>
+    
+	<atom:link href="https://darvid7.github.io/static-site-test/ramblings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Maps 2017 - 2018 Summer Internship</title>
+      <link>https://darvid7.github.io/static-site-test/ramblings/maps_internship/</link>
+      <pubDate>Tue, 10 Jul 2018 19:48:13 +1000</pubDate>
+      
+      <guid>https://darvid7.github.io/static-site-test/ramblings/maps_internship/</guid>
+      <description>Over the past summer (2017 - 2018) I worked on the Google Maps Location Sharing team! Location Sharing in Maps allows you to share your location with someone. Typical use cases include sharing with family members when overseas and sharing with friends to try meet up somewhere. I worked on two features to improve the user experience when sharing location by providing more information to the person being shared with, I can now talk about because they launched!</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://darvid7.github.io/static-site-test/ramblings/first_post/</link>
+      <pubDate>Mon, 09 Jul 2018 19:51:48 +1000</pubDate>
+      
+      <guid>https://darvid7.github.io/static-site-test/ramblings/first_post/</guid>
+      <description>World! I&amp;rsquo;m not sure what I&amp;rsquo;m going to do with this, I guess this is a blog of sorts although using a blogging platform like medium will probably be easier 🤔&amp;hellip;I guess I just like writing in *.md.</description>
+    </item>
+    
+  </channel>
+</rss>
